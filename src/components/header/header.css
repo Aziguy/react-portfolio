@@ -33,6 +33,20 @@ header {
     bottom: 3rem;
 }
 
+.header__socials::before {
+    content: '';
+    position: absolute;
+    top: -1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3rem;
+    height: 12rem;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 3rem;
+    backdrop-filter: blur(10px);
+    z-index: -1;
+}
+
 .header__socials::after {
     content: '';
     width: 1px;

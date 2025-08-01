@@ -3,6 +3,6 @@ import './certification.css'
 
 export const Certification = () => {
   return (
-    <div>Certification</div>
+    <section id="certifications">Certification</section>
   )
 }
