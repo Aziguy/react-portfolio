@@ -13,7 +13,7 @@ const navItems = [
   { id: '#about', icon: <FaCircleUser />, label: 'About' },
   { id: '#experiences', icon: <MdOutlineWork />, label: 'Experiences' },
   { id: '#services', icon: <LuHandshake />, label: 'Services' },
-  { id: '#certifications', icon: <PiCertificateFill />, label: 'Certifications' },
+  { id: '#certifications', icon: <PiCertificateFill />, label: 'Certification' },
   { id: '#contact', icon: <BiSolidMessageSquareDetail />, label: 'Contact' },
 ];
 
