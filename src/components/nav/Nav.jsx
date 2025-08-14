@@ -10,12 +10,12 @@ import { BiSolidMessageSquareDetail } from "react-icons/bi";
 import './nav.css';
 
 const navItems = [
-  { id: '#', icon: <FaHome />, label: 'Home' },
-  { id: '#about', icon: <FaCircleUser />, label: 'About' },
-  { id: '#experiences', icon: <MdOutlineWork />, label: 'Experiences' },
+  { id: '#', icon: <FaHome />, label: 'Accueil' },
+  { id: '#about', icon: <FaCircleUser />, label: 'A Propos' },
+  { id: '#experiences', icon: <MdOutlineWork />, label: 'Expériences' },
   { id: '#services', icon: <LuHandshake />, label: 'Services' },
   { id: '#certifications', icon: <PiCertificateFill />, label: 'Certification' },
-  { id: '#testimonials', icon: <TiMessageTyping />, label: 'Testimonials' },
+  { id: '#testimonials', icon: <TiMessageTyping />, label: 'Avis' },
   { id: '#contact', icon: <BiSolidMessageSquareDetail />, label: 'Contact' },
 ];
 
