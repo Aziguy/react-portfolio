@@ -16,10 +16,10 @@ export const Contact = () => {
     emailjs.sendForm('service_up9t38v', 'template_qm1num3', form.current, {
       publicKey: 'Pbi1rXkWuDv5H6gKR',
     }).then(() => {
-        setStatus({ loading: false, success: true, message: 'Message sent successfully!' });
+        setStatus({ loading: false, success: true, message: 'Message envoyé avec succès !' });
         e.target.reset();
       }, (error) => {
-        setStatus({ loading: false, success: false, message: 'Failed to send. Please try again later.' });
+        setStatus({ loading: false, success: false, message: 'Échec de l\'envoi. Veuillez réessayer plus tard.' });
         console.error(error.text);
       });
   };
@@ -47,8 +47,8 @@ export const Contact = () => {
 
   return (
     <section id="contact">
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
+      <h5>Prise de contact</h5>
+      <h2>Me contacter</h2>
 
       <div className="container contact__container">
         <div className="contact__options">
