@@ -10,8 +10,8 @@ import me from '../../assets/me-about.jpg'
 export const About = () => {
   return (
     <section id="about">
-      <h5>Get To Know</h5>
-      <h2>About Me</h2>
+      <h5>En savoir plus</h5>
+      <h2>A-Propos de moi</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -24,23 +24,23 @@ export const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className='about__icon'/>
-              <h5>Experiences</h5>
-              <small>9+ Years Working</small>
+              <h5>Expériences</h5>
+              <small>9+ ans d'XP</small>
             </article>
             <article className="about__card">
               <VscFolderActive   className='about__icon'/>
-              <h5>Projects</h5>
-              <small>50+ perso & companies</small>
+              <h5>Projets</h5>
+              <small>50+ perso.</small>
             </article>
             <article className="about__card">
               <PiCertificateFill  className='about__icon'/>
               <h5>Certifications</h5>
-              <small>25+ Certifications</small>
+              <small>43+ Certifications</small>
             </article>
           </div>
-          <p>
-              Seasoned software engineer with over 9 years of expertise in full-stack development and test automation, leveraging Selenium, Cypress to reduce testing time by 50%. Skilled in JavaScript, React, python, and Agile methodologies. Passionate about implementing CI/CD and DevOps to deliver robust, high-quality products. Continuously learning the latest technologies. Seeking an opportunity to utilize my experience across the entire software development lifecycle and QA automation to build innovative solutions and exceed customer expectations.
-            </p>
+          <p style={{ textAlign: 'justify' }}>
+            Ingénieur logiciel expérimenté avec plus de 9 ans d’expertise en développement Full Stack et en automatisation de tests. Spécialisé dans la réduction des temps de tests de plus de 50 % grâce à des outils tels que Selenium et Cypress. Maîtrise de JavaScript, React, Python et des méthodologies Agile (Scrum, Kanban). Passionné par la mise en place de pipelines CI/CD et de pratiques DevOps pour livrer des produits robustes, performants et de haute qualité. Toujours en veille technologique sur les dernières innovations en développement web, tests automatisés et cloud computing. Ouvert aux opportunités permettant de mettre à profit mon expérience sur l’ensemble du cycle de vie logiciel, du développement à la QA automation, afin de concevoir des solutions innovantes et dépasser les attentes des clients.
+          </p>
 
             <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>

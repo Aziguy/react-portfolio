@@ -96,7 +96,7 @@ export const Certification = () => {
 
   return (
     <section id="certifications">
-      <h5>My Recent Official Recognitions</h5>
+      <h5>Mes récentes qualifications officielles</h5>
       <h2>Certifications</h2>
 
       <div className="container certification__container">
@@ -108,7 +108,7 @@ export const Certification = () => {
             <h3>{cert.title}</h3>
             <div className="certification__item-cta">
               <a href={cert.link} className="btn" target="_blank" rel="noopener noreferrer">
-                See the badge
+                Voir le badge
               </a>
             </div>
           </article>
