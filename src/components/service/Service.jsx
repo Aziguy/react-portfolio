@@ -4,7 +4,7 @@ import './service.css';
 
 const serviceData = [
   {
-    title: "Tests logiciels et automatisation QA",
+    title: "Tests logiciels",
     items: [
       "Conception et automatisation de scénarios de tests complets pour applications web et mobile.",
       "Rédaction de tests BDD en langage Gherkin pour équipes QA, PO et développement.",
@@ -26,7 +26,7 @@ const serviceData = [
     ],
   },
   {
-    title: "Développement web et optimisation",
+    title: "Développement web",
     items: [
       "Développement de thèmes WordPress personnalisés avec Timber et Twig.",
       "Création de plugins WordPress sur mesure avec intégration React et PHP.",
