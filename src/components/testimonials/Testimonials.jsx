@@ -68,8 +68,8 @@ const testimonialsData = [
 export const Testimonials = () => {
   return (
     <section id='testimonials'>
-      <h5>Review from Colleagues & Managers</h5>
-      <h2>Testimonials</h2>
+      <h5>Avis des collègues et des Managers</h5>
+      <h2>Avis</h2>
 
       <Swiper
         className="container testimonials__container"
