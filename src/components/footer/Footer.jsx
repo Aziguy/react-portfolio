@@ -10,12 +10,12 @@ export const Footer = () => {
       <a href="#" className='footer__logo'>Hken.</a>
 
       <ul className="permalinks">
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experiences">Experience</a></li>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#about">A-Propos</a></li>
+        <li><a href="#experiences">Expérience</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#certifications">Certifications</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#testimonials">Avis</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
 
@@ -34,7 +34,7 @@ export const Footer = () => {
       <div className="footer__copyright">
         <small>
           <small>
-            &copy; {new Date().getFullYear()} Hippolyte. All rights reserved.
+            &copy; {new Date().getFullYear()} Aziguy. Tout droit réservé.
           </small>
         </small>
       </div>
