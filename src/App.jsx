@@ -1,31 +1,51 @@
-import { useState } from 'react'
-import {JsonLd} from './components/common/JsonLd';
-import {Header} from './components/header/Header'
-import {Nav} from './components/nav/Nav'
-import {About} from './components/about/About'
-import {Experience} from './components/experience/Experience'
-import {Service} from './components/service/Service'
-import {Certification} from './components/certification/Certification'
-import {Testimonials} from './components/testimonials/Testimonials'
-import {Contact} from './components/contact/Contact'
-import {Footer} from './components/footer/Footer'
+import { I18nProvider } from './i18n/I18nProvider.jsx';
+import { useScrollSpy } from './hooks/useScrollSpy.js';
+import { useScrolled } from './hooks/useScrolled.js';
+import { useTheme } from './hooks/useTheme.js';
+import { sectionIds } from './data/navigation.js';
+import { StructuredData } from './components/common/StructuredData.jsx';
+import { ErrorBoundary } from './components/ui/ErrorBoundary.jsx';
+import { BackToTop } from './components/layout/BackToTop.jsx';
+import { Footer } from './components/layout/Footer.jsx';
+import { MobileNav } from './components/layout/MobileNav.jsx';
+import { SkipLink } from './components/layout/SkipLink.jsx';
+import { Topbar } from './components/layout/Topbar.jsx';
+import { About } from './components/sections/About.jsx';
+import { Certifications } from './components/sections/Certifications.jsx';
+import { Contact } from './components/sections/Contact.jsx';
+import { Hero } from './components/sections/Hero.jsx';
+import { Projects } from './components/sections/Projects.jsx';
+import { Services } from './components/sections/Services.jsx';
+import { Skills } from './components/sections/Skills.jsx';
+import { Testimonials } from './components/sections/Testimonials.jsx';
 
-function App() {
+const sections = [About, Skills, Projects, Services, Certifications, Testimonials, Contact];
+
+const App = () => {
+  const { toggleTheme } = useTheme();
+  const activeId = useScrollSpy(sectionIds);
+  const scrolled = useScrolled(120);
 
   return (
-    <>
-      <JsonLd />
-      <Header />
-      <Nav />
-      <About />
-      <Experience />
-      <Service />
-      <Certification />
-      <Testimonials />
-      <Contact />
-      <Footer />
-    </>
-  )
-}
+    <I18nProvider>
+      <StructuredData />
+      <SkipLink />
+      <Topbar activeId={activeId} onToggleTheme={toggleTheme} scrolled={scrolled} />
 
-export default App
+      <main id="main">
+        <Hero />
+        {sections.map((SectionComponent) => (
+          <ErrorBoundary key={SectionComponent.name}>
+            <SectionComponent />
+          </ErrorBoundary>
+        ))}
+      </main>
+
+      <Footer />
+      <MobileNav activeId={activeId} />
+      <BackToTop visible={scrolled} />
+    </I18nProvider>
+  );
+};
+
+export default App;

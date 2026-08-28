@@ -1,0 +1,129 @@
+.topbar {
+  position: fixed;
+  inset-block-start: 0;
+  inset-inline: 0;
+  z-index: 40;
+  height: var(--nav-height);
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid transparent;
+  transition:
+    background var(--transition-base),
+    border-color var(--transition-base),
+    backdrop-filter var(--transition-base);
+}
+
+.topbar--scrolled {
+  background: color-mix(in srgb, var(--color-bg) 82%, transparent);
+  border-bottom-color: var(--color-border);
+  backdrop-filter: blur(14px);
+}
+
+.topbar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+}
+
+.topbar__logo {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--color-text);
+  font-family: var(--font-display);
+  font-weight: 600;
+}
+
+.topbar__logo-mark {
+  display: grid;
+  place-items: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  font-size: var(--text-sm);
+  letter-spacing: 0.02em;
+  color: var(--color-on-primary);
+  background: var(--gradient-brand);
+  border-radius: var(--radius-md);
+}
+
+.topbar__nav ul {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.topbar__nav a {
+  display: inline-block;
+  padding: 0.4rem 0.75rem;
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  border-radius: var(--radius-full);
+  transition:
+    color var(--transition-fast),
+    background var(--transition-fast);
+}
+
+.topbar__nav a:hover {
+  color: var(--color-text);
+  background: var(--color-surface);
+}
+
+.topbar__nav a.is-active {
+  color: var(--color-primary);
+  background: var(--color-primary-soft);
+}
+
+.topbar__actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.topbar__action {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: 0.45rem 0.65rem;
+  color: var(--color-text-muted);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  transition:
+    color var(--transition-fast),
+    border-color var(--transition-fast),
+    background var(--transition-fast);
+}
+
+.topbar__action:hover {
+  color: var(--color-text);
+  border-color: var(--color-border-strong);
+  background: var(--color-surface);
+}
+
+.topbar__action-label {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+@media (max-width: 1024px) {
+  .topbar__nav {
+    display: none;
+  }
+
+  .topbar__logo-text {
+    display: none;
+  }
+}
+
+/* L'icône de thème est pilotée par CSS : le rendu React reste identique
+   entre le HTML pré-rendu et l'hydratation, quel que soit le thème stocké. */
+.topbar__icon {
+  display: none;
+  line-height: 0;
+}
+
+[data-theme='dark'] .topbar__icon--dark,
+[data-theme='light'] .topbar__icon--light {
+  display: inline-flex;
+}

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.hippo-ken.fr/sitemap.xml
+Sitemap: https://hippolytek.fr/sitemap.xml

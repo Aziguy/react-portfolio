@@ -1,0 +1,19 @@
+.skip-link {
+  position: fixed;
+  inset-block-start: var(--space-3);
+  inset-inline-start: 50%;
+  z-index: 100;
+  padding: 0.6rem 1.2rem;
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--color-on-primary);
+  background: var(--color-primary);
+  border-radius: var(--radius-full);
+  transform: translate(-50%, -180%);
+  transition: transform var(--transition-base);
+}
+
+.skip-link:focus-visible {
+  color: var(--color-on-primary);
+  transform: translate(-50%, 0);
+}

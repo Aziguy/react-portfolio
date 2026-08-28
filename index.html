@@ -1,44 +1,70 @@
 <!doctype html>
 <html lang="fr">
   <head>
-    <!-- Charset & Viewport -->
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#0e0e1c" />
 
-    <!-- Title & Description -->
-    <title>Hippolyte Kengni | Ingénieur QA Automation & Développeur Web Full Stack</title>
-    <meta name="description" content="Découvrez le portfolio de Hippolyte Kengni, ingénieur QA Automation et développeur Web Full Stack. Expert en automatisation de tests, développement Python, ReactJS, WordPress et Laravel. Services en CI/CD, Docker, Cypress, Selenium, Appium, Gherkin, Cucumber, Jenkins, Jira, Redmine. Basé en France, disponible à Montpellier, Lyon, Bordeaux, Marseille, Paris et dans toute la France. Projets, compétences, certifications et solutions sur mesure pour vos besoins en développement et automatisation." />
-    <meta name="keywords" content="ingénieur QA automation, développeur web full stack, développeur Python, développeur React, développeur TypeScript, développeur Laravel, développeur WordPress, automatisation de tests, Cypress, Docker, CI/CD, GitHub Actions, GitLab CI, Jenkins, Jira, Redmine, Gherkin, Cucumber, JSON, API REST, création site vitrine, création e-commerce, développement logiciel, intégration continue, déploiement continu, audit de code, maintenance applicative, Clean code, Montpellier, Paris, Lyon, Marseille, Bordeaux, Toulouse, Lille, Nantes, Strasbourg, Nice, Bretagne, Île-de-France, Provence-Alpes-Côte d’Azur, Nouvelle-Aquitaine, Occitanie, Auvergne-Rhône-Alpes, Normandie, Hauts-de-France" />
+    <title>Hippolyte Kengni — Ingénieur QA Automation &amp; Développeur Web Full Stack</title>
+    <meta
+      name="description"
+      content="Ingénieur QA Automation et développeur web full stack. 9 ans d'expérience en automatisation de tests (Cypress, Selenium, Playwright), CI/CD et développement React, Python et WordPress."
+    />
     <meta name="author" content="Hippolyte Kengni" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
 
-    <!-- SEO Meta -->
-    <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://www.hippo-ken.fr/" />
-    <link rel="alternate" hreflang="fr" href="https://www.hippo-ken.fr/" />
+    <link rel="canonical" href="https://hippolytek.fr/" />
+    <link rel="alternate" hreflang="fr" href="https://hippolytek.fr/" />
+    <link rel="alternate" hreflang="en" href="https://hippolytek.fr/" />
+    <link rel="alternate" hreflang="x-default" href="https://hippolytek.fr/" />
 
-    <!-- Open Graph (Facebook, LinkedIn, etc.) -->
-    <meta property="og:title" content="Hippolyte Kengni | Ingénieur QA Automation & Développeur Web Full Stack" />
-    <meta property="og:description" content="Portfolio professionnel de Hippolyte Kengni : expertise en automatisation de tests et développement Web Full Stack. Découvrez ses projets et certifications." />
-    <meta property="og:image" content="https://www.hippo-ken.fr/preview.jpg" />
-    <meta property="og:url" content="https://www.hippo-ken.fr/" />
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Hippolyte Kengni" />
+    <meta
+      property="og:title"
+      content="Hippolyte Kengni — Ingénieur QA Automation &amp; Développeur Web Full Stack"
+    />
+    <meta
+      property="og:description"
+      content="Portfolio : projets, compétences et certifications en automatisation de tests, CI/CD et développement web full stack."
+    />
+    <meta property="og:image" content="https://hippolytek.fr/preview.jpg" />
+    <meta property="og:image:alt" content="Portfolio d'Hippolyte Kengni" />
+    <meta property="og:url" content="https://hippolytek.fr/" />
     <meta property="og:locale" content="fr_FR" />
+    <meta property="og:locale:alternate" content="en_GB" />
 
-    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Hippolyte Kengni | Ingénieur QA Automation & Développeur Web" />
-    <meta name="twitter:description" content="Portfolio professionnel présentant projets, certifications et services en automatisation de tests et développement Web." />
-    <meta name="twitter:image" content="https://www.hippo-ken.fr/preview.jpg" />
+    <meta name="twitter:title" content="Hippolyte Kengni — QA Automation &amp; Full Stack" />
+    <meta
+      name="twitter:description"
+      content="Portfolio : projets, compétences et certifications en automatisation de tests, CI/CD et développement web full stack."
+    />
+    <meta name="twitter:image" content="https://hippolytek.fr/preview.jpg" />
 
-    <!-- Favicon & Manifest -->
-    <link rel="icon" href="/favicon_io/favicon.ico" />
-    <link rel="apple-touch-icon" href="/favicon_io/apple-touch-icon.png" sizes="180x180" />
-    <link rel="icon" type="image/png" sizes="192x192" href="/favicon_io/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="/favicon_io/android-chrome-512x512.png">
+    <link rel="icon" href="/favicon_io/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
-
-    <!-- Theme -->
-    <meta name="theme-color" content="#2c2c6c" />
+    <script>
+      // Appliqué avant le premier rendu pour éviter tout clignotement de thème.
+      (function () {
+        var root = document.documentElement;
+        root.classList.add('js');
+        try {
+          var stored = localStorage.getItem('portfolio:theme');
+          root.dataset.theme =
+            stored === 'light' || stored === 'dark'
+              ? stored
+              : matchMedia('(prefers-color-scheme: light)').matches
+                ? 'light'
+                : 'dark';
+        } catch (error) {
+          root.dataset.theme = 'dark';
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

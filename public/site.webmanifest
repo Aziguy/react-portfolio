@@ -1,10 +1,13 @@
 {
-  "name": "Hippolyte | Portfolio",
-  "short_name": "Hippolyte",
-  "start_url": "/",
+  "name": "Hippolyte Kengni — Portfolio",
+  "short_name": "Hippolyte K.",
+  "description": "Portfolio d'Hippolyte Kengni, ingénieur QA Automation et développeur web full stack.",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#0a66c2",
+  "background_color": "#0e0e1c",
+  "theme_color": "#0e0e1c",
+  "lang": "fr",
   "icons": [
     {
       "src": "./favicon_io/android-chrome-192x192.png",
@@ -15,6 +18,12 @@
       "src": "./favicon_io/android-chrome-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
+    },
+    {
+      "src": "./favicon_io/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }

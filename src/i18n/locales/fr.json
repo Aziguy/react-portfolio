@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "title": "Hippolyte Kengni — Ingénieur QA Automation & Développeur Web Full Stack",
+    "description": "Ingénieur QA Automation et développeur web full stack. 9 ans d'expérience en automatisation de tests (Cypress, Selenium, Playwright), CI/CD et développement React, Python et WordPress."
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "services": "Services",
+    "certifications": "Certifications",
+    "testimonials": "Recommandations",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Bonjour, je suis",
+    "role": "Ingénieur QA Automation & Développeur Full Stack",
+    "tagline": "Je conçois des applications web et j'industrialise les tests qui les rendent fiables — de la première ligne de code au déploiement continu.",
+    "available": "Disponible pour de nouvelles missions",
+    "downloadCv": "Télécharger le CV",
+    "contactMe": "Discutons de votre projet",
+    "scroll": "Faire défiler"
+  },
+  "about": {
+    "eyebrow": "En savoir plus",
+    "title": "À propos",
+    "bio": [
+      "Ingénieur logiciel, j'accompagne depuis plus de neuf ans des équipes produit sur l'ensemble du cycle de vie applicatif : du développement full stack à l'automatisation des tests.",
+      "Mon terrain de jeu, c'est la fiabilité. J'ai réduit de plus de 50 % la durée des campagnes de tests en industrialisant des frameworks Selenium et Cypress, puis en branchant ces suites sur des pipelines d'intégration continue.",
+      "Au quotidien : JavaScript, React, Python, PHP, en Scrum comme en Kanban, avec une obsession — livrer un code que l'équipe suivante pourra reprendre sans douleur."
+    ],
+    "stats": {
+      "experience": "Années d'expérience",
+      "projects": "Projets menés",
+      "certifications": "Certifications"
+    },
+    "cta": "Travaillons ensemble"
+  },
+  "skills": {
+    "eyebrow": "Ce que je maîtrise",
+    "title": "Compétences",
+    "level": {
+      "advanced": "Confirmé",
+      "intermediate": "Intermédiaire"
+    }
+  },
+  "projects": {
+    "eyebrow": "Une sélection de réalisations",
+    "title": "Projets",
+    "filters": {
+      "all": "Tout",
+      "qa": "QA & Automatisation",
+      "web": "Web & PWA",
+      "wordpress": "WordPress",
+      "data": "Data & IA"
+    },
+    "featured": "Mis en avant",
+    "demo": "Voir la démo",
+    "code": "Code source",
+    "empty": "Aucun projet dans cette catégorie.",
+    "viewAll": "Tous mes dépôts sur GitHub",
+    "countLabel": "{count} projet(s) affiché(s)"
+  },
+  "services": {
+    "eyebrow": "Ce que je peux faire pour vous",
+    "title": "Services",
+    "cta": "Demander un devis"
+  },
+  "certifications": {
+    "eyebrow": "Qualifications officielles vérifiables",
+    "title": "Certifications",
+    "view": "Voir le badge",
+    "issuedBy": "Délivrée par",
+    "viewAll": "Tous mes badges sur Credly",
+    "previous": "Page précédente",
+    "next": "Page suivante",
+    "page": "Page {page}"
+  },
+  "testimonials": {
+    "eyebrow": "Ce que disent mes collègues et clients",
+    "title": "Recommandations",
+    "previous": "Recommandation précédente",
+    "next": "Recommandation suivante"
+  },
+  "contact": {
+    "eyebrow": "Parlons de votre besoin",
+    "title": "Me contacter",
+    "intro": "Une mission, un projet ou simplement une question ? Je réponds sous 48 heures.",
+    "copy": "Copier l'adresse",
+    "copied": "Copié",
+    "form": {
+      "name": "Votre nom",
+      "email": "Votre adresse email",
+      "subject": "Sujet",
+      "message": "Votre message",
+      "send": "Envoyer le message",
+      "sending": "Envoi en cours…",
+      "success": "Message envoyé. Je vous réponds très vite.",
+      "error": "L'envoi a échoué. Réessayez ou écrivez-moi directement par email.",
+      "unavailable": "Le formulaire est momentanément indisponible. Écrivez-moi directement par email.",
+      "invalidEmail": "Adresse email invalide.",
+      "tooShort": "Message trop court (20 caractères minimum)."
+    },
+    "channels": {
+      "email": "Écrire un email",
+      "whatsapp": "Ouvrir WhatsApp",
+      "linkedin": "Voir le profil"
+    }
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "backToTop": "Revenir en haut",
+    "sourceCode": "Code source de ce site"
+  },
+  "a11y": {
+    "skipToContent": "Aller au contenu principal",
+    "toggleTheme": "Changer de thème",
+    "switchToLight": "Passer en thème clair",
+    "switchToDark": "Passer en thème sombre",
+    "switchLanguage": "Switch to English",
+    "mainNavigation": "Navigation principale",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "error": {
+    "title": "Une erreur est survenue",
+    "message": "Cette section n'a pas pu s'afficher. Le reste du site reste accessible.",
+    "reload": "Recharger la page"
+  }
+}

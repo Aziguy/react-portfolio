@@ -1,0 +1,39 @@
+.back-to-top {
+  position: fixed;
+  inset-block-end: var(--space-6);
+  inset-inline-end: var(--space-5);
+  z-index: 40;
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  color: var(--color-text);
+  background: color-mix(in srgb, var(--color-bg-elevated) 90%, transparent);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  box-shadow: var(--shadow-md);
+  backdrop-filter: blur(12px);
+  opacity: 0;
+  transform: translateY(12px);
+  pointer-events: none;
+  transition:
+    opacity var(--transition-base),
+    transform var(--transition-base),
+    border-color var(--transition-fast);
+}
+
+.back-to-top.is-visible {
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+}
+
+.back-to-top:hover {
+  border-color: var(--color-primary);
+}
+
+@media (max-width: 1024px) {
+  .back-to-top {
+    inset-block-end: 5.5rem;
+  }
+}

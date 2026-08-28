@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "title": "Hippolyte Kengni — QA Automation Engineer & Full Stack Web Developer",
+    "description": "QA Automation engineer and full stack web developer. 9 years of experience in test automation (Cypress, Selenium, Playwright), CI/CD and React, Python and WordPress development."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "services": "Services",
+    "certifications": "Certifications",
+    "testimonials": "Recommendations",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I am",
+    "role": "QA Automation Engineer & Full Stack Developer",
+    "tagline": "I build web applications and industrialise the tests that make them reliable — from the first line of code to continuous deployment.",
+    "available": "Available for new assignments",
+    "downloadCv": "Download my CV",
+    "contactMe": "Let's discuss your project",
+    "scroll": "Scroll down"
+  },
+  "about": {
+    "eyebrow": "Get to know me",
+    "title": "About",
+    "bio": [
+      "As a software engineer, I have spent over nine years supporting product teams across the full application lifecycle, from full stack development to test automation.",
+      "Reliability is my playing field. I cut test campaign duration by more than 50% by industrialising Selenium and Cypress frameworks, then wiring those suites into continuous integration pipelines.",
+      "Day to day: JavaScript, React, Python and PHP, in Scrum as well as Kanban, with one obsession — shipping code the next team can pick up painlessly."
+    ],
+    "stats": {
+      "experience": "Years of experience",
+      "projects": "Projects delivered",
+      "certifications": "Certifications"
+    },
+    "cta": "Let's work together"
+  },
+  "skills": {
+    "eyebrow": "What I work with",
+    "title": "Skills",
+    "level": {
+      "advanced": "Advanced",
+      "intermediate": "Intermediate"
+    }
+  },
+  "projects": {
+    "eyebrow": "A selection of my work",
+    "title": "Projects",
+    "filters": {
+      "all": "All",
+      "qa": "QA & Automation",
+      "web": "Web & PWA",
+      "wordpress": "WordPress",
+      "data": "Data & AI"
+    },
+    "featured": "Featured",
+    "demo": "Live demo",
+    "code": "Source code",
+    "empty": "No project in this category.",
+    "viewAll": "All my repositories on GitHub",
+    "countLabel": "{count} project(s) shown"
+  },
+  "services": {
+    "eyebrow": "What I can do for you",
+    "title": "Services",
+    "cta": "Request a quote"
+  },
+  "certifications": {
+    "eyebrow": "Verifiable official credentials",
+    "title": "Certifications",
+    "view": "View badge",
+    "issuedBy": "Issued by",
+    "viewAll": "All my badges on Credly",
+    "previous": "Previous page",
+    "next": "Next page",
+    "page": "Page {page}"
+  },
+  "testimonials": {
+    "eyebrow": "What colleagues and clients say",
+    "title": "Recommendations",
+    "previous": "Previous recommendation",
+    "next": "Next recommendation"
+  },
+  "contact": {
+    "eyebrow": "Let's talk about your needs",
+    "title": "Get in touch",
+    "intro": "An assignment, a project or simply a question? I reply within 48 hours.",
+    "copy": "Copy address",
+    "copied": "Copied",
+    "form": {
+      "name": "Your name",
+      "email": "Your email address",
+      "subject": "Subject",
+      "message": "Your message",
+      "send": "Send message",
+      "sending": "Sending…",
+      "success": "Message sent. I will get back to you shortly.",
+      "error": "Sending failed. Please try again or email me directly.",
+      "unavailable": "The form is temporarily unavailable. Please email me directly.",
+      "invalidEmail": "Invalid email address.",
+      "tooShort": "Message too short (20 characters minimum)."
+    },
+    "channels": {
+      "email": "Send an email",
+      "whatsapp": "Open WhatsApp",
+      "linkedin": "View profile"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "backToTop": "Back to top",
+    "sourceCode": "Source code of this site"
+  },
+  "a11y": {
+    "skipToContent": "Skip to main content",
+    "toggleTheme": "Toggle theme",
+    "switchToLight": "Switch to light theme",
+    "switchToDark": "Switch to dark theme",
+    "switchLanguage": "Passer en français",
+    "mainNavigation": "Main navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "error": {
+    "title": "Something went wrong",
+    "message": "This section could not be displayed. The rest of the site is still available.",
+    "reload": "Reload the page"
+  }
+}
