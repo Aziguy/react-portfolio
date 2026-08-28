@@ -2,6 +2,13 @@
 
 ## Priorité haute
 
+- [ ] **Corriger l'enregistrement DNS `www`.** `www.hippolytek.fr` pointe aujourd'hui vers les
+      adresses A de GitHub Pages, si bien que le certificat TLS ne le couvre pas
+      (`SEC_E_WRONG_PRINCIPAL`). Chez le registrar, remplacer les enregistrements A et AAAA de
+      `www` par un unique **CNAME `www` → `aziguy.github.io`**. GitHub émettra alors un
+      certificat couvrant `www` et le redirigera vers l'apex. L'apex `hippolytek.fr` fonctionne
+      déjà en HTTPS et n'est pas concerné.
+
 - [ ] **Restreindre EmailJS au domaine du site.** Dans le tableau de bord EmailJS, limiter les
       domaines autorisés à `hippolytek.fr` et `aziguy.github.io` et activer la limitation de
       débit. Les identifiants sont exposés côté client par construction : c'est cette restriction
