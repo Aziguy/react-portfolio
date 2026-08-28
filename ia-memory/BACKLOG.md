@@ -6,8 +6,6 @@
       domaines autorisés à `hippolytek.fr` et `aziguy.github.io` et activer la limitation de
       débit. Les identifiants sont exposés côté client par construction : c'est cette restriction
       qui protège le quota d'envoi. Voir [décision 0004](decisions/0004-secrets-emailjs.md).
-- [ ] **Remplacer `public/preview.jpg`.** L'aperçu Open Graph date de la version précédente
-      du site. Format attendu : 1200 × 630 px.
 - [ ] **Actualiser le CV.** `src/assets/KENGNI_Hippolyte_CV_FR_082025_dev.pdf` pèse 1,4 Mo et
       porte une date d'août 2025 ; prévoir une version compressée et une version anglaise.
 
