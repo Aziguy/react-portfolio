@@ -23,10 +23,10 @@
     "@emailjs/browser": "^4.4.1",
     "@fontsource-variable/inter": "^5.3.0",
     "@fontsource-variable/sora": "^5.3.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "react-icons": "^5.5.0",
-    "swiper": "^11.2.10"
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-icons": "^5.7.0",
+    "swiper": "^14.2.0"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.13.0",
@@ -35,8 +35,8 @@
     "@testing-library/jest-dom": "^7.0.1",
     "@testing-library/react": "^16.3.3",
     "@testing-library/user-event": "^14.6.6",
-    "@types/react": "^19.1.8",
-    "@types/react-dom": "^19.1.6",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.5",
     "@vitejs/plugin-react": "^4.6.0",
     "@vitest/coverage-v8": "^3.2.7",
     "eslint": "^9.30.1",
