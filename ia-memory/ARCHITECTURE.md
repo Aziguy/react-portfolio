@@ -53,3 +53,8 @@ Ajouter un projet ou une certification ne demande donc jamais de modifier du JSX
 `npm run verify` enchaîne lint, types, tests unitaires et build. La CI ajoute les tests
 Playwright (desktop et mobile) et l'audit d'accessibilité axe-core. Le déploiement dépend
 de cette chaîne : aucun échec ne peut atteindre la production.
+
+Playwright démarre son propre serveur d'aperçu sur le port **4319**, sans jamais réutiliser
+un serveur déjà en écoute. Cette contrainte n'est pas cosmétique : avec la réutilisation
+activée sur un port courant, la suite peut tester silencieusement l'application d'un autre
+dépôt et rendre un vert mensonger.

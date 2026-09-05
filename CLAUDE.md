@@ -32,3 +32,7 @@ pour toute décision structurante.
 - Les chemins de ressources sont relatifs (`base: './'`) pour fonctionner aussi sur l'URL
   GitHub Pages de repli. Ne pas les repasser en absolu.
 - `public/CNAME` porte le domaine personnalisé : le supprimer casserait `hippolytek.fr`.
+- Les tests Playwright tournent sur le port **4319** avec `reuseExistingServer: false`.
+  Ne pas revenir à un port courant ni réactiver la réutilisation : un serveur d'un autre
+  dépôt écoutant sur le même port ferait passer toute la suite sur la mauvaise application
+  sans qu'aucun test ne le signale. Le cas s'est produit le 2026-09-05 avec le port 4173.
