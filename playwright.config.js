@@ -1,6 +1,8 @@
 import { defineConfig, devices } from '@playwright/test';
 
-const PORT = 4173;
+// Port dédié au projet : réutiliser un serveur déjà en écoute ferait tester
+// l'application d'un autre dépôt sans que rien ne le signale.
+const PORT = 4319;
 
 export default defineConfig({
   testDir: './tests/e2e',
@@ -21,7 +23,7 @@ export default defineConfig({
   webServer: {
     command: `npm run preview -- --port ${PORT} --strictPort`,
     url: `http://localhost:${PORT}`,
-    reuseExistingServer: !process.env.CI,
+    reuseExistingServer: false,
     timeout: 120_000,
   },
 });

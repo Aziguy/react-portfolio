@@ -1,5 +1,23 @@
 # Journal des changements
 
+## 2026-09-05 — Enrichissement de la section Projets
+
+### Ajouté
+- **Kenako** — prototype de plateforme SaaS multi-restaurants (cinq applications, socle
+  commun, cartes Leaflet), mis en avant. Démo : https://aziguy.github.io/kenako/
+- **LeGuide Informatique — Boutique** — site e-commerce bilingue et back-office.
+  Démo : https://aziguy.github.io/lgi-web-site/
+
+### Modifié
+- Le projet `pwa-pc-config` devient « Configurateur PC LeGuide » (slug `leguide-pc-config`) :
+  le client LeGuide Informatique a désormais deux réalisations distinctes dans la section.
+- Mise en avant recentrée sur trois projets, un par axe : Kenako, Jose's Cuisine, Cypress.
+- Playwright utilise un port dédié (4319) et ne réutilise plus un serveur déjà en écoute.
+  Un `http-server` d'un autre dépôt occupait le port 4173 et faisait passer toute la suite
+  sur la mauvaise application sans que rien ne le signale.
+
+La section compte 13 projets : 2 QA, 6 Web & PWA, 3 WordPress, 2 Data & IA.
+
 ## 2026-08-28 — Refonte complète
 
 Compte rendu détaillé : [`sessions/2026-08-28-refonte.md`](sessions/2026-08-28-refonte.md).

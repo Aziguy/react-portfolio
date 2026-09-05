@@ -20,6 +20,20 @@ export const projectCategories = ['qa', 'web', 'wordpress', 'data'];
 /** @type {Project[]} */
 export const projects = [
   {
+    slug: 'kenako',
+    title: { fr: 'Kenako', en: 'Kenako' },
+    summary: {
+      fr: "Prototype d'une plateforme SaaS multi-restaurants sans commission : cinq applications — vitrine, client, restaurateur, superadmin et livreur — bâties sur un socle commun de magasin d'état réactif, routeur à fragment, graphiques SVG et cartes Leaflet, le tout en modules ES natifs sans étape de compilation.",
+      en: 'Prototype of a commission-free multi-restaurant SaaS platform: five applications — landing, customer, restaurateur, super-admin and courier — built on a shared foundation of reactive state store, hash router, SVG charts and Leaflet maps, in native ES modules with no build step.',
+    },
+    category: 'web',
+    stack: ['JavaScript', 'Modules ES', 'Design System', 'Leaflet', 'PWA'],
+    repo: 'https://github.com/Aziguy/kenako',
+    demo: 'https://aziguy.github.io/kenako/',
+    featured: true,
+    year: 2026,
+  },
+  {
     slug: 'joses-cuisine',
     title: { fr: "Jose's Cuisine", en: "Jose's Cuisine" },
     summary: {
@@ -34,8 +48,8 @@ export const projects = [
     year: 2026,
   },
   {
-    slug: 'leguide-informatique',
-    title: { fr: 'LeGuide Informatique', en: 'LeGuide Informatique' },
+    slug: 'leguide-pc-config',
+    title: { fr: 'Configurateur PC LeGuide', en: 'LeGuide PC Configurator' },
     summary: {
       fr: "PWA vitrine doublée d'un configurateur d'ordinateur portable avec aperçu 3D en direct : l'utilisateur compose sa machine composant par composant, puis transmet sa configuration par WhatsApp.",
       en: 'Showcase PWA paired with a laptop configurator featuring a live 3D preview: users assemble their machine component by component, then send the configuration over WhatsApp.',
@@ -43,7 +57,19 @@ export const projects = [
     category: 'web',
     stack: ['React', 'Vite', 'TypeScript', 'PWA'],
     repo: 'https://github.com/Aziguy/pwa-pc-config',
-    featured: true,
+    year: 2026,
+  },
+  {
+    slug: 'lgi-boutique',
+    title: { fr: 'LeGuide Informatique — Boutique', en: 'LeGuide Informatique — Store' },
+    summary: {
+      fr: "Site e-commerce bilingue et back-office pour un revendeur informatique à deux boutiques : disponibilité par point de vente, réservation payée au retrait, commande par WhatsApp, gestion du stock, des codes promo et du blog. Palette retravaillée pour atteindre le contraste WCAG AA.",
+      en: 'Bilingual e-commerce site and back office for a two-store IT retailer: per-store availability, reserve-and-pay-on-pickup, WhatsApp ordering, plus stock, promo code and blog management. Palette reworked to meet WCAG AA contrast.',
+    },
+    category: 'web',
+    stack: ['HTML', 'CSS', 'JavaScript', 'E-commerce', 'i18n'],
+    repo: 'https://github.com/Aziguy/lgi-web-site',
+    demo: 'https://aziguy.github.io/lgi-web-site/',
     year: 2026,
   },
   {
