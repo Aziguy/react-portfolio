@@ -14,7 +14,7 @@ export const author = {
   phone: '+237686777838',
   phoneDisplay: '+237 686 777 838',
   location: { city: 'Montpellier', country: 'France', countryCode: 'FR' },
-  yearsOfExperience: 9,
+  yearsOfExperience: 10,
 };
 
 export const social = {
@@ -23,6 +23,12 @@ export const social = {
   credly: 'https://www.credly.com/users/hippolyte-kengni/badges',
   whatsapp: `https://api.whatsapp.com/send?phone=${author.phone.replace('+', '')}`,
   messenger: 'https://m.me/hippolyte.kengni',
+};
+
+/** PDF générés à chaque build du CV interactif, donc toujours à jour. */
+export const resumePdf = {
+  fr: 'https://aziguy.github.io/interactive-resume-template/cv/fr/CV_Hippolyte_Kengni_FR.pdf',
+  en: 'https://aziguy.github.io/interactive-resume-template/cv/en/CV_Hippolyte_Kengni_EN.pdf',
 };
 
 export const emailjsConfig = {

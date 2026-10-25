@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Hippolyte Kengni — Ingénieur QA Automation & Développeur Web Full Stack",
-    "description": "Ingénieur QA Automation et développeur web full stack. 9 ans d'expérience en automatisation de tests (Cypress, Selenium, Playwright), CI/CD et développement React, Python et WordPress."
+    "description": "Ingénieur QA Automation et développeur web full stack. 10 ans d'expérience en automatisation de tests (Cypress, Selenium, Playwright), CI/CD et développement React, Python et WordPress."
   },
   "nav": {
     "home": "Accueil",
@@ -26,7 +26,7 @@
     "eyebrow": "En savoir plus",
     "title": "À propos",
     "bio": [
-      "Ingénieur logiciel, j'accompagne depuis plus de neuf ans des équipes produit sur l'ensemble du cycle de vie applicatif : du développement full stack à l'automatisation des tests.",
+      "Ingénieur logiciel, j'accompagne depuis plus de dix ans des équipes produit sur l'ensemble du cycle de vie applicatif : du développement full stack à l'automatisation des tests.",
       "Mon terrain de jeu, c'est la fiabilité. J'ai réduit de plus de 50 % la durée des campagnes de tests en industrialisant des frameworks Selenium et Cypress, puis en branchant ces suites sur des pipelines d'intégration continue.",
       "Au quotidien : JavaScript, React, Python, PHP, en Scrum comme en Kanban, avec une obsession — livrer un code que l'équipe suivante pourra reprendre sans douleur."
     ],
