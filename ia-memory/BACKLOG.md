@@ -26,9 +26,9 @@
       débit. Les identifiants sont exposés côté client par construction : c'est cette restriction
       qui protège le quota d'envoi. Voir [décision 0004](decisions/0004-secrets-emailjs.md).
 
-- [ ] **Actualiser le CV.** `src/assets/KENGNI_Hippolyte_CV_FR_082025_dev.pdf` pèse 1,4 Mo et
-      porte une date d'août 2025 ; prévoir une version compressée et une version anglaise.
-      C'est le fichier le plus lourd du site et le seul contenu encore monolingue.
+- [ ] **Confirmer la localisation et le téléphone.** `author.location` (Montpellier) et
+      `author.phone` (+237) diffèrent du CV interactif (Bordeaux, +33). Voir
+      [`sessions/2026-10-25-cv-et-projets.md`](sessions/2026-10-25-cv-et-projets.md).
 
 ## Priorité moyenne
 

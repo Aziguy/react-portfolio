@@ -1,5 +1,20 @@
 # Journal des changements
 
+## 2026-10-25 : CV, années d'expérience et projets
+
+Compte rendu : [`sessions/2026-10-25-cv-et-projets.md`](sessions/2026-10-25-cv-et-projets.md).
+
+### Ajouté
+- Projets **CV interactif**, **Arwyp Medical Centre** et **Quorum**, avec démos en ligne.
+- Groupe de compétences « IA et productivité » et compétence Agilitest.
+
+### Modifié
+- 10 ans d'expérience (statistique, biographie, méta description).
+- « Télécharger le CV » ouvre le PDF généré par le CV interactif, dans la langue affichée.
+
+### Supprimé
+- `src/assets/KENGNI_Hippolyte_CV_FR_082025_dev.pdf` (1,4 Mo, août 2025, français seul).
+
 ## 2026-09-05 — Enrichissement de la section Projets
 
 ### Ajouté
