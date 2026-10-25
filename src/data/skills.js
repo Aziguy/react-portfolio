@@ -37,6 +37,14 @@ export const skillGroups = [
         },
       },
       {
+        name: 'Agilitest',
+        level: 'advanced',
+        detail: {
+          fr: 'Automatisation low-code et maintenance de référentiels de tests',
+          en: 'Low-code automation and test repository maintenance',
+        },
+      },
+      {
         name: 'Appium',
         level: 'intermediate',
         detail: {
@@ -58,6 +66,61 @@ export const skillGroups = [
         detail: {
           fr: 'Tests API REST et automatisation par scripts',
           en: 'REST API testing and script-driven automation',
+        },
+      },
+    ],
+  },
+  {
+    id: 'ai',
+    icon: 'cpu',
+    title: { fr: 'IA et productivité', en: 'AI and productivity' },
+    skills: [
+      {
+        name: 'LLM',
+        level: 'intermediate',
+        detail: {
+          fr: 'Génération et revue de cas de test assistées par IA',
+          en: 'AI-assisted test case generation and review',
+        },
+      },
+      {
+        name: 'Agents IA',
+        level: 'intermediate',
+        detail: {
+          fr: 'Automatisation de tâches de développement et de test',
+          en: 'Automating development and testing tasks',
+        },
+      },
+      {
+        name: 'Agent Skills',
+        level: 'intermediate',
+        detail: {
+          fr: "Savoir-faire réutilisables pour outiller les agents",
+          en: 'Reusable know-how packaged for agents',
+        },
+      },
+      {
+        name: 'MCP',
+        level: 'intermediate',
+        detail: {
+          fr: 'Connexion des agents aux outils (Jira, Xray, navigateur)',
+          en: 'Connecting agents to tools (Jira, Xray, browser)',
+        },
+      },
+      {
+        name: 'Prompt engineering',
+        level: 'intermediate',
+        detail: {
+          fr: 'Consignes précises pour des résultats fiables et vérifiables',
+          en: 'Precise instructions for reliable, verifiable output',
+        },
+      },
+      {
+        name: 'Couverture de tests',
+        level: 'advanced',
+        detail: {
+          fr: "Objectif proche de 100 % grâce à l'IA et à l'automatisation",
+          en: 'Targeting near 100% with AI and automation',
         },
       },
     ],
