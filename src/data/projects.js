@@ -73,6 +73,45 @@ export const projects = [
     year: 2026,
   },
   {
+    slug: 'interactive-resume',
+    title: { fr: 'CV interactif', en: 'Interactive Resume' },
+    summary: {
+      fr: "CV web bilingue piloté par un seul fichier de configuration typé. À chaque build, Playwright imprime le site en PDF A4 par langue : la version téléchargeable reste toujours synchrone avec la version en ligne. Thème clair et sombre, JSON-LD et version complète sans JavaScript pour les robots.",
+      en: 'Bilingual web resume driven by a single typed configuration file. On every build, Playwright prints the site to an A4 PDF per language, so the downloadable version always matches the online one. Light and dark themes, JSON-LD and a full no-JavaScript version for crawlers.',
+    },
+    category: 'web',
+    stack: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Playwright'],
+    repo: 'https://github.com/Aziguy/interactive-resume-template',
+    demo: 'https://aziguy.github.io/interactive-resume-template/',
+    year: 2026,
+  },
+  {
+    slug: 'arwyp',
+    title: { fr: 'Arwyp Medical Centre', en: 'Arwyp Medical Centre' },
+    summary: {
+      fr: "Gabarit navigable du site et de la plateforme d'un centre médical : site public, back-office, espace spécialiste et portail patient installable en PWA, basculable entre deux propositions commerciales. Un moteur de listes commun gère filtres, tri, pagination et état partageable dans l'URL. Données fictives.",
+      en: 'Navigable template of a medical centre website and platform: public site, back office, specialist workspace and installable PWA patient portal, switchable between two commercial proposals. A shared listing engine handles filters, sorting, pagination and shareable URL state. Fictitious data.',
+    },
+    category: 'web',
+    stack: ['Astro', 'TypeScript', 'PWA', 'SEO'],
+    repo: 'https://github.com/Aziguy/arwyp',
+    demo: 'https://aziguy.github.io/arwyp/',
+    year: 2026,
+  },
+  {
+    slug: 'quorum',
+    title: { fr: 'Quorum', en: 'Quorum' },
+    summary: {
+      fr: "Prototype de plateforme de vote libre et auditable pour associations, coopératives et conseils : assistant de scrutin, quorum et règles de majorité, séparation entre identité et bulletin, journal chaîné et procès-verbal. Moteur de dépouillement testé, sans serveur ni dépendance.",
+      en: 'Prototype of a free, auditable voting platform for associations, cooperatives and boards: ballot wizard, quorum and majority rules, identity and ballot separation, hash-chained log and official minutes. Tested counting engine, with no server and no dependencies.',
+    },
+    category: 'web',
+    stack: ['JavaScript', 'Modules ES', 'HTML', 'CSS'],
+    repo: 'https://github.com/Aziguy/quorum-proto',
+    demo: 'https://aziguy.github.io/quorum-proto/',
+    year: 2026,
+  },
+  {
     slug: 'cypress-framework',
     title: { fr: 'Framework E2E Cypress', en: 'Cypress E2E Framework' },
     summary: {
