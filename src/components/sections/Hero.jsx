@@ -1,8 +1,7 @@
-import { author, social } from '../../data/site.config.js';
+import { author, resumePdf, social } from '../../data/site.config.js';
 import { useI18n } from '../../i18n/useI18n.js';
 import { Icon } from '../ui/Icon.jsx';
 import portrait from '../../assets/me.png';
-import cv from '../../assets/KENGNI_Hippolyte_CV_FR_082025_dev.pdf';
 import './hero.css';
 
 const socialLinks = /** @type {const} */ ([
@@ -12,7 +11,7 @@ const socialLinks = /** @type {const} */ ([
 ]);
 
 export const Hero = () => {
-  const { t } = useI18n();
+  const { t, l } = useI18n();
 
   return (
     <section id="hero" className="hero" aria-labelledby="hero-title">
@@ -34,7 +33,7 @@ export const Hero = () => {
             <a href="#contact" className="btn btn--primary">
               {t('hero.contactMe')}
             </a>
-            <a href={cv} download className="btn">
+            <a href={l(resumePdf)} target="_blank" rel="noopener noreferrer" className="btn">
               <Icon name="download" />
               {t('hero.downloadCv')}
             </a>
