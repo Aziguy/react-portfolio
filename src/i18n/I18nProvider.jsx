@@ -24,6 +24,7 @@ export const I18nProvider = ({ children }) => {
   );
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- la locale réelle n'est lue qu'après hydratation
     setLocaleState(detectInitialLocale());
   }, []);
 

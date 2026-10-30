@@ -41,6 +41,8 @@
 
 ## Priorité basse
 
+- [ ] Passer à ESLint 10 dès qu'`eslint-plugin-react` l'accepte en dépendance pair
+      ([décision 0006](decisions/0006-eslint-9-maintenu.md)).
 - [ ] Migrer progressivement vers TypeScript, le JSDoc servant de base
       ([décision 0002](decisions/0002-javascript-et-jsdoc.md)).
 - [ ] Ajouter une section « Parcours » sous forme de frise chronologique.

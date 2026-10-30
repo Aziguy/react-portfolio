@@ -1,5 +1,17 @@
 # Journal des changements
 
+## 2026-10-30 : mises à jour des dépendances
+
+Compte rendu : [`sessions/2026-10-30-dependances.md`](sessions/2026-10-30-dependances.md).
+
+### Modifié
+- Actions GitHub : `checkout` 7, `upload-artifact` 7, `configure-pages` 6,
+  `upload-pages-artifact` 5, `deploy-pages` 5.
+- React 19.3, react-icons 5.7, Swiper 14.
+- Vite 8, Vitest 5, `@vitejs/plugin-react` 6, `eslint-plugin-react-hooks` 7, jsdom 30.
+- Découpage des chunks via `rolldownOptions.output.codeSplitting` (Vite 8).
+- ESLint maintenu en 9 ([décision 0006](decisions/0006-eslint-9-maintenu.md)).
+
 ## 2026-10-25 : CV, années d'expérience et projets
 
 Compte rendu : [`sessions/2026-10-25-cv-et-projets.md`](sessions/2026-10-25-cv-et-projets.md).
