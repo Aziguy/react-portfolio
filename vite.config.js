@@ -10,13 +10,15 @@ export default defineConfig(({ isSsrBuild }) => ({
     target: 'es2020',
     cssCodeSplit: true,
     sourcemap: false,
-    rollupOptions: {
+    rolldownOptions: {
       output: isSsrBuild
         ? {}
         : {
-            manualChunks: {
-              react: ['react', 'react-dom'],
-              swiper: ['swiper', 'swiper/react'],
+            codeSplitting: {
+              groups: [
+                { name: 'react', test: /node_modules[\\/](react|react-dom|scheduler)[\\/]/ },
+                { name: 'swiper', test: /node_modules[\\/]swiper[\\/]/ },
+              ],
             },
           },
     },

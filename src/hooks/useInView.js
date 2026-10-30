@@ -12,6 +12,7 @@ export const useInView = ({ threshold = 0.15, rootMargin = '0px 0px -60px 0px' }
     const element = ref.current;
     if (!element) return;
     if (typeof IntersectionObserver === 'undefined') {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- l'état initial doit rester identique au pré-rendu
       setInView(true);
       return;
     }
